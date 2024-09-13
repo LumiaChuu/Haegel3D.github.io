@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Haegel3D - Pembuat Karakter 3D</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <header>
+        <h1><i class="fas fa-cube"></i> Haegel3D</h1>
+        <p>Let's create!😊</p>
+        <button id="start-creating" class="cta-button">Mulai Berkreasi</button>
+    </header>
+    <div id="container">
+        <div id="scene"></div>
+        <div id="gui-container">
+            <div id="gui"></div>
+        </div>
+        <footer>
+            <p>&copy; 2024 Haegel3D. Created by <a href="#" target="_blank">Dimas Ramadhan</a></p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+    <script src="editor.js"></script>
+</body>
+</html>
